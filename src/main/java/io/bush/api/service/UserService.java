@@ -1,8 +1,8 @@
-package io.egen.api.service;
+package io.bush.api.service;
 
 import java.util.List;
 
-import io.egen.api.entity.User;
+import io.bush.api.entity.User;
 
 public interface UserService {
 

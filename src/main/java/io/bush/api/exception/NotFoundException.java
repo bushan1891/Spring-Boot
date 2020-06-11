@@ -1,4 +1,4 @@
-package io.egen.api.exception;
+package io.bush.api.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

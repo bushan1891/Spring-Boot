@@ -1,4 +1,4 @@
-package io.egen.api.controller;
+package io.bush.api.controller;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.egen.api.constants.URI;
-import io.egen.api.entity.User;
-import io.egen.api.service.UserService;
+import io.bush.api.constants.URI;
+import io.bush.api.entity.User;
+import io.bush.api.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

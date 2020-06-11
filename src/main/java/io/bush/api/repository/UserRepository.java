@@ -1,11 +1,11 @@
-package io.egen.api.repository;
+package io.bush.api.repository;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.repository.Repository;
 
-import io.egen.api.entity.User;
+import io.bush.api.entity.User;
 
 public interface UserRepository extends Repository<User, String> {
 

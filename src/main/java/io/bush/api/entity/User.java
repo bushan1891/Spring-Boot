@@ -1,4 +1,4 @@
-package io.egen.api.entity;
+package io.bush.api.entity;
 
 import java.util.UUID;
 
@@ -13,6 +13,7 @@ public class User {
 	private String id;
 	private String firstName;
 	private String lastName;
+	private String username;
 
 	@Column(unique = true)
 	private String email;
@@ -21,6 +22,10 @@ public class User {
 	public User() {
 		this.id = UUID.randomUUID().toString();
 	}
+
+	public String getUsername() { return username; }
+
+	public void setUsername(String username) { this.username = username; }
 
 	public String getId() {
 		return id;

@@ -1,12 +1,11 @@
-package io.egen.api;
+package io.bush.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
-import org.springframework.core.env.AbstractEnvironment;
 
-import io.egen.api.config.SwaggerConfig;
-import io.egen.api.config.WebConfig;
+import io.bush.api.config.SwaggerConfig;
+import io.bush.api.config.WebConfig;
 
 
 @SpringBootApplication

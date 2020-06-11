@@ -1,4 +1,4 @@
-package io.egen.api.config;
+package io.bush.api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,7 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo apiInfo() {
-		Contact contact = new Contact("admin", "https://egen.io", "developer@egen.io");
+		Contact contact = new Contact("admin", "https://bush.io", "bushan1891@gmail.com");
 		ApiInfo info = new ApiInfo("Spring-REST API", "A simple REST API", "1.0.0", "TnC", contact, "MIT",
 				"https://opensource.org/licenses/MIT");
 		return info;

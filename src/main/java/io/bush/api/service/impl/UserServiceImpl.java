@@ -1,16 +1,16 @@
-package io.egen.api.service.impl;
+package io.bush.api.service.impl;
 
 import java.util.List;
 import java.util.Optional;
 
+import io.bush.api.exception.BadRequestException;
+import io.bush.api.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import io.egen.api.entity.User;
-import io.egen.api.exception.BadRequestException;
-import io.egen.api.exception.NotFoundException;
-import io.egen.api.repository.UserRepository;
-import io.egen.api.service.UserService;
+import io.bush.api.entity.User;
+import io.bush.api.exception.NotFoundException;
+import io.bush.api.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

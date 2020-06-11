@@ -1,4 +1,4 @@
-package io.egen.api.constants;
+package io.bush.api.constants;
 
 public final class URI {
 
